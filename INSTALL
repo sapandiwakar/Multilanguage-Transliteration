@@ -1,0 +1,16 @@
+Basic Installation
+==================
+
+	First of all ensure that you have set $tpath environment variable to the MultiLanguage Transliteration directory.
+	Copy the "MultiLanguage Transliteration" folder to your home directory and then set the path as below.
+	if you have not set the tpath environment variable then set it by adding the following
+	line in your .bash_profile
+
+	export tpath= ~/"MultiLanguage Transliteration"
+
+	There should not be any space between = and ~.
+	
+	you will have to run 'source .bash_profile' to make these changes effective.
+	test that the path is set by 'env | grep tpath'
+
+For how to use MultiLanguage Transliteration, please refer to the file README.

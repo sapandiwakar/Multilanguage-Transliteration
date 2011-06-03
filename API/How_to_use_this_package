@@ -1,0 +1,36 @@
+How to use this package:-
+
+if you are new user of C_api, and don't know about it, Plz read the files/ folder of this package in following oder and then use it for your propose.
+
+First read: folder :::-> doc
+follow the file in this folder in following order :
+1)ReadMeforInsatll
+2)ReadMefor_Developer 
+3)README_DEVELOPER(description_of_sample_example)
+
+
+Second read the sample example in the folder : sample_ program
+follow the file in this folder in following order :
+1) sample.c
+2) checking_doc.c
+3) checking_ssf.c
+4) checking_fs.c
+
+
+Third read the sample example of input files in the folder : sample_input_file
+follow the file in this folder in following order :
+1) multiple_sentences.tkn
+2) hindi_sample_file.tkn
+
+
+Fouth  read the functions of c api in the folder : list_of_API_functions
+
+1)Functios_for_multipleSentenceANDcml.pdf
+2)Functions_for_ssf.pdf
+
+
+For any queries mail to rohit@research.iiit.ac.in, 
+
+All the best,
+LTRC-2009,
+IIIT Hyderabad.

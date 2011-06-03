@@ -1,0 +1,55 @@
+1	((	NP	<fs af='child,n,m,p,3,0,,' head=1>
+1.1	children	NNS	<fs af='child,n,m,p,3,0,,'>
+	))		
+2	((	VG	<fs af='watch,v,m,s,3,0,,' aspect=PROG head=2>
+2.1	are	VBP	<fs af='be,v,m,s,3,0,,' head=2>
+2.2	watching	VBG	<fs af='watch,v,m,s,3,0,,' aspect=PROG>
+	))		
+3	((	PP	<fs af='watch,,,,3,0,gvs,reddy/aspectPRoG/head2'> <fs af='watch,,,,3,0,dfmd,reddy/aspectPROG/head2'>
+3.1	in	IN	<fs af='in,v,m,s,3,0,,' aspect=PROG head=3>
+3.2	((	NP	<fs af='the,v,m,s,3,0,,' aspect=PROG head=4>
+3.2.1	the	DT	<fs af='house,v,m,s,3,0,,' aspect=PROG head=3>
+3.2.2	house	NN	<fs af='the,v,m,s,3,0,,' aspect=hgfd>
+	))		
+	))		
+
+
+((	PP	<fs af='watch,,,,3,0,gvs,reddy/aspectPRoG/head2'> <fs af='watch,,,,3,0,dfmd,reddy/aspectPROG/head2'>
+in	IN	<fs af='in,v,m,s,3,0,,' aspect=PROG head=3>
+((	NP	<fs af='the,v,m,s,3,0,,' aspect=PROG head=4>
+the	DT	<fs af='house,v,m,s,3,0,,' aspect=PROG head=3>
+house	NN	<fs af='the,v,m,s,3,0,,' aspect=hgfd>
+	))		
+	))		
+
+
+<fs af='watch,,,,3,0,gvs,reddy/aspectPRoG/head2' iiit=hyderabad> <fs af='watch,,,,3,0,dfmd,reddy/aspectPROG/head2' iiit=hyderabad>
+Checked add_attr_val
+
+<fs af='watch,,,,3,0,gvs,reddy/aspectPRoG/head2' iiit=Andhrapradesh> <fs af='watch,,,,3,0,dfmd,reddy/aspectPROG/head2' iiit=Andhrapradesh>
+Checked update_attr_val
+
+<fs af='watch,,,,3,0,gvs,reddy/aspectPRoG/head2' iiit=Andhrapradesh gvs=reddy>
+Checked add_attr_val_2
+
+<fs af='watch,,,,3,0,gvs,reddy/aspectPRoG/head2' iiit=Andhrapradesh gvs=goli>
+Checked update_attr_val_2
+
+<fs af='watch,,,,3,0,gvs,reddy/aspectPRoG/head2' gvs=goli> <fs af='watch,,,,3,0,dfmd,reddy/aspectPROG/head2'>
+Checked del_attr & del_attr_2
+
+goli
+Checked get_attr_val
+
+2
+<fs af='in,v,m,s,3,0,,' aspect=PROG head=3>
+<fs af='house,v,m,s,3,0,,' aspect=PROG head=3>
+
+
+before deleton-----<fs af='watch,,,,3,0,gvs,reddy/aspectPRoG/head2' gvs=goli> <fs af='watch,,,,3,0,dfmd,reddy/aspectPROG/head2'>
+after deletion----<fs af='watch,,,,3,0,gvs,reddy/aspectPRoG/head2' gvs=goli>
+Checked delete_fs_struct_from_or_node
+
+<fs af='watch,,,,3,0,gvs,reddy/aspectPRoG/head2' gvs=goli> <fs af='watch,,,,3,0,,/newfs/head3'>
+Checked add_fs_struct_to_or_node
+

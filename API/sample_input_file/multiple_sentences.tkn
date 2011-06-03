@@ -1,0 +1,32 @@
+<Sentence id="1">
+1	((	NP	<fs af='child,n,m,p,3,0,,' head='1'>
+1.1	children	NNS	<fs af='child,n,m,p,3,0,,'>
+	))
+2	((	VG	<fs af='watch,v,m,s,3,0,,' aspect='PROG' head='2'>
+2.1	are	VBP	<fs af='be,v,m,s,3,0,,' head='2'>
+2.2	watching	VBG	<fs af='watch,v,m,s,3,0,,' aspect='PROG'>
+	))
+3	((	PP	<fs af='watch,,,,3,0,gvs,reddy' aspect=PRoG head='2'>|<fs af='watch,,,,3,0,dfmd,reddy' aspect='PROG' head='2'>
+3.1	in	IN	<fs af='in,v,m,s,3,0,,' aspect='PROG' head='3'>
+3.2	((	NP	<fs af='the,v,m,s,3,0,,' aspect='PROG' head='4'>
+3.2.1	the	DT	<fs af='house,v,m,s,3,0,,' aspect='PROG' head='3'>
+3.2.2	house	NN	<fs af='the,v,m,s,3,0,,' aspect='hgfd'>
+	))
+	))
+</Sentence>
+<Sentence id="2">
+1	((	NP	<fs af='child,n,m,p,3,0,,' head='1'>
+1.1	children	NNS	<fs af='child,n,m,p,3,0,,'>
+	))
+2	((	VG	<fs af='watch,v,m,s,3,0,,' aspect='PROG' head='2'>
+2.1	are	VBP	<fs af='be,v,m,s,3,0,,' head='2'>
+2.2	watching	VBG	<fs af='watch,v,m,s,3,0,,' aspect='PROG'>
+	))
+3	((	PP	<fs af='watch,,,,3,0,gvs,reddy' aspect='PRoG' head='2'> <fs af='watch,,,,3,0,dfmd,reddy' aspect='PROG' head='2'>
+3.1	in	IN	<fs af='in,v,m,s,3,0,,' aspect='PROG' head='3'>
+3.2	((	NP	<fs af='the,v,m,s,3,0,,' aspect='PROG' head='4'>
+3.2.1	the	DT	<fs af='house,v,m,s,3,0,,' aspect='PROG' head='3'>
+3.2.2	house	NN	<fs af='the,v,m,s,3,0,,' aspect='hgfd'>
+	))
+	))
+</Sentence>

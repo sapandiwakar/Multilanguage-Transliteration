@@ -1,0 +1,106 @@
+Once you have C_API_for_ multipleSentence_CML in current working directory, ,
+You need to have follow following basic steps to use c api in ur program,
+
+Step1:-
+//You need to declare the root node of  input file of SSF. ( multiple_sentence/ cml) ,In api it is define as  circle type and in below example tree (root node of input ssf) is pointer which is declared as cirle type .
+/* create_circle(),Initialize the data structure of circle 
+/* circle contains the tree structure of CML format with all the tbis,sentenceids,docids and segments etc... if they are in CML format or else it will only contain the sentence ids */
+/* node is struct type, having the structure of SSF,
+/* temp is very important pointer, it is keeping the address of tb_id,sentence_id,
+Datastructure Creation:
+----------------------	
+
+	// Create the datastructure;
+	circle * tree;
+	tree=create_circle();
+	node ** temp;// stores the nodes returned by the traversed and then the particlar_node and the nodes_tb	
+
+Step2:-
+// Use following functions to process the  file (cml/multiple_sentence ssf)
+
+
+Functions:
+----------
+// Read the input file into data structure
+	read_ssf_from_file(circle * tree,char *input_filename); 
+//prints the data structure into the output_filename
+	void print_tree_to_file(circle * tree,char* output_filename);
+// Applies the function on all the sentences and SSF in the input_filename
+	int traverse_tree(circle* tree,node **temp,int count); 
+// Applies the function and returns the sentence nodes in tb >= tb_start <= tb_end
+	int nodes_tb(circle * tree,node ** temp,int count,int tb_start,int tb_end); 
+// returns the particular node with the following particular features
+	node *particular_node(circle* tree,int docid,int bodyid,int tbid,int sentneceid); 
+	
+	// Here docid,bodyid,tbid starts with 1 and for places where segment="yes" then sentenceid=0;
+	//	else give the sentenceid as usually the one in the file
+
+
+
+
+Step 3:- The function name of SSF is same as it was in capi for single sentence( without sentence tage.  )
+
+
+Examples: For getting better understanding of above functions,--------
+
+	Please go through the directory sample_programs
+
+	For an example look at the sample.c,checking_ssf.c,checking_fs.checking_doc.c
+
+
+
+Step 4:-There are few very important precaution need to take care while using the C_API_for_ multipleSentence_CML
+
+
+a) Warning:
+------- 
+	Please make sure that you use the function traverse_tree before you manipulate any sentences
+
+b) Input Files:
+-----------
+	
+	The sample input files are in input_files directory. use multiple_sentences.tkn file as test input
+
+c) Warning : (very-very important, if u get Segmentation fault error.
+--------
+You may get "Segmentation fault"
+if you are using the function to access/modify  any data of input file, and input file don't have it.
+ i.e.
+     you need to  make sure that you have  created the functions in such a way that the data is  present in the input  file and only then it will be accessed 
+There will not call any such  functions for which the data is not present in the Input file.
+otherwise You will end up with a "Segmentation fault"
+
+	
+
+Step 5:-
+
+How to compile the program :-
+
+for example compile sample program sample.c as:
+		gcc  `pkg-config --cflags glib-2.0` `pkg-config --libs glib-2.0` sample.c
+		
+		
+
+How to run:
+----------
+
+			./a.out <input.file>
+
+input may be :Multiple Sentences
+
+	./a.out ../input_files/multiple_sentences.tkn
+
+input may be:  CML format
+	./a.out ../input_files/hindi_sample_file.tkn
+
+
+Queries :
+---------
+
+For any queries mail to rohit@research.iiit.ac.in, mrchethan@students.iiit.ac.in
+
+
+All the best,
+LTRC-2009,
+IIIT Hyderabad.
+

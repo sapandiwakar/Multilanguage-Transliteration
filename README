@@ -1,0 +1,56 @@
+						MultiLanguage Transliteration
+						-----------------------------
+MultiLanguage Transliteration
+-----------------------------
+
+
+Requirements:
+------------
+Operating System		:    LINUX/UNIX system
+
+Compiler/Interpreter/Librarie(s):    GCC and SSF API's
+
+Description:	
+------------
+MultiLanguage Transliteration is used for converting the input file from one language utf format to another language in utf format.The fields which are converted are TKN,lex,vib,name and head in SSF. If the input file is in wx format the program converts only the words which are in wx format with "@" symbol and if the inputfile is in utf format the program converts only the words which are with or without the "@" symbol. The converter will convert all the words which are in the language specified in to_convert arguement.
+
+For installation on Linux, please refer to the file INSTALL.
+
+
+Directory Structure:
+--------------------
+
+MultiLanguage Convertor
+     |
+     |---bin (functional source code of the MultiLanguage Transliteration)
+     |
+     |---API (SSF API's)
+     |
+     |---README (How to run/use the module)
+     |
+     |---INSTALL (How to install)
+     |
+     |---src (Source Code of MultiLanguage  Transliteration)
+     |
+     |---tests (Sample input and  output)
+
+How to Use?
+------------
+
+1a. Text Conversion:
+
+    $tpath/bin/text/wx_utf --tlang=pan --input_file=$tpath/tests/text.rin --output_file=$tpath/tests/text.rout --slang=hin --mode=debug --to_convert=hin,tel
+
+1b. SSF Conversion: 
+
+    $tpath/bin/text/utf_wx --tlang --input_file=$tpath/tests/ssf.rout --output_file=$tpath/tests/ssf.rin --slang=hin --mode=debug --to_convert=hin,tel
+	
+   *sample input and output files are provided in the tests dir namely .rin .rout
+
+2. use --help option with any of the bin files to display help
+
+Author: Pulkit Goyal And Sapan Diwakar
+	IIIT Allahabad
+
+Any Quries or suggestions mail to
+pulkit110@gmail.com, diwakar.sapan@gmail.com

@@ -1,0 +1,34 @@
+Bugs Reported:
+--------------
+
+	Date: Unknown
+		File: core_functions.h
+		Bug: int_to_str() fuction changed.
+		Status: corrected
+			---------
+
+	Date: Unknown
+		File: fs_fuctions.h 
+		Bug: In tmp_get_nodes_with_attr_val() the if confition is
+added (N->OR !=NULL). (line #150)
+		Status: corrected
+			---------	
+
+	Date: Unknown
+		File: ssf_functions.h
+		Bug: In function get_nth_child, "number < 1 " is changed to
+"number < 0"
+		Status: corrected
+			---------
+
+	Date: 24/12/2007
+		File: ssf_functions.h
+		Bug: changed "=" to "==" in function modify_field()
+		Status: corrected
+			---------
+	
+	Date: 24/12/2007
+		Bug: not g++ and cpp compatible
+		Status: Made the api compatible with g++ and cpp compilers.
+			--------------------------------------------------
+

@@ -1,0 +1,62 @@
+<document docid=" " docnumber="  ">
+<head>
+<title>पृथ्वी के लिए बनेगा कृत्रिम सूर्य</title>
+<Original_title>  </Original_title>
+
+<author>
+<firstname>   </firstname>
+<middlename>    </middlename>
+<lastname>     </lastname>
+</author>
+
+<creation creation date="Sep 20,2007" institutename="IIIT, Hyderabad"></creation>
+
+<distributor> http://in.jagran.yahoo.com/news/international/general/3_5_3749239/ </distributor>
+
+<language name=" " writingsystem="LTR" script=" "/>
+
+<projectdesc name="ILMTConsortium"/>
+
+<dateofpublication>Sep 19, 03:09 pm</dateofpublication>
+
+</head>
+<body>
+<tb      number ="1" segment="no" bullet="no">
+<text>
+<Sentence id="1">
+1	((	NP
+1.1	children	NNS	<af='child,n,m,p,3,0,,'>
+	))
+2	((	VG	<af='watch,v,m,s,3,0,,' aspect='PROG' head='2'>
+2.1	are	VBP	<af='be,v,m,s,3,0,,' head='2'>
+2.2	watching	VBG	<af='watch,v,m,s,3,0,,' aspect='PROG'>
+	))
+3	((	CCP	<af='watch,,,,3,0,,' aspect='PRoG'>|<af='watch,,,,3,0,,' aspect='PROG' head='3'>
+3.1	in	IN	<af='in,v,m,s,3,0,,' aspect='PROG' head='3'>
+3.2	((	NP	<af='the,v,m,s,3,0,,' aspect='PROG' head='4'>
+3.2.1	the	DT	<af='house,v,m,s,3,0,,' aspect='PROG' head='3'>
+3.2.2	house	NN	<af='the,v,m,s,3,0,,' aspect='hgfd'>
+	))
+	))
+</Sentence>
+<Sentence id="2">
+1	((	NP
+1.1	children	NNS	<af='child,n,m,p,3,0,,'>
+	))
+2	((	VG	<af='sing,v,m,s,3,0,,' aspect='PROG' head='2'>
+2.1	are	VBP	<af='be,v,m,s,3,0,,' head='2'>
+2.2	watching	VBG	<af='watch,v,m,s,3,0,,' aspect='PROG'>
+	))
+3	((	CCP	<af='sing,,,,3,0,,' aspect='PRoG'>|<af='watch,,,,3,0,,' aspect='PROG' head='3'>
+3.1	in	IN	<af='in,v,m,s,3,0,,' aspect='PROG' head='3'>
+3.2	((	NP	<af='the,v,m,s,3,0,,' aspect='PROG' head='4'>
+3.2.1	the	DT	<af='house,v,m,s,3,0,,' aspect='PROG' head='3'>
+3.2.2	house	NN	<af='the,v,m,s,3,0,,' aspect='hgfd'>
+	))
+	))
+</Sentence>
+</text>
+<foreign language="select" writingsystem="LTR"> </foreign>
+</tb>
+</body>
+</document>

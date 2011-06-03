@@ -1,0 +1,20 @@
+<Sentence id="1">			
+1	((	NP	<fs af='लडका,n,m,pl,,d,,' head="लड़के">
+1.1	उस	DEM	<fs af='उस,pn,any,sg,3,o,,'>
+1.2	लड़के	NN	<fs af='लडका,n,m,pl,,d,,' name="लड़के">
+1.3	ने	PSP	<fs af='ने,psp,,,,,,'>
+	))		
+2	((	NP	<fs af='रादा,n,f,sg,3,,,' head="रादा">
+2.1	रादा	NN	<fs af='रादा,n,f,sg,3,,,' name="रादा">
+2.2	का	PSP	<fs af='का,n,m,sg,,d,,'>
+	))		
+3	((	NP	<fs af='केला,n,m,sg,,d,,' head="केला">
+3.1	केला	NN	<fs af='केला,n,m,sg,,d,,' name="केला">
+	))		
+4	((	VGF	<fs af='काया,n,f,sg,,d,,' head="काया">
+4.1	काया	VM	<fs af='काया,n,f,sg,,d,,' name="काया">
+	))		
+5	((	NP	<fs af='ता,n,m,sg,,d,,' head="ता">
+5.1	ता	NN	<fs af='ता,n,m,sg,,d,,' name="ता">
+	))		
+</Sentence>			

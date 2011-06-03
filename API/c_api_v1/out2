@@ -1,0 +1,14 @@
+1	((	NP	<af=child,n,m,p,3,0,,/head=1>
+1.1	children	NNS	<af=child,n,m,p,3,0,,>
+	))		
+2	((	VG	<af=watch,v,m,s,3,0,,/aspect=PROG/head=2>
+2.1	are	VBP	<af=be,v,m,s,3,0,,/head=2>
+2.2	watching	VBG	<af=watch,v,m,s,3,0,,/aspect=PROG>
+	))		
+3	((	PP	<af=watch,,,,3,0,,/aspect=PRoG>|<af=watch,,,,3,0,,/aspect=PROG/head=3>
+3.1	in	IN	<af=in,v,m,s,3,0,,/aspect=PROG/head=3>
+3.2	((	NP	<af=the,v,m,s,3,0,,/aspect=PROG/head=4>
+3.2.1	the	DT	<af=house,v,m,s,3,0,,/aspect=PROG/head=3>
+3.2.2	house	NN	<af=the,v,m,s,3,0,,/aspect=hgfd>
+	))		
+	))		

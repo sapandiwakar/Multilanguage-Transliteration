@@ -1,0 +1,20 @@
+<Sentence id="1">			
+1	((	NP	<fs af='ladakA,n,m,pl,,d,,' head="lake">
+1.1	us	DEM	<fs af='us,pn,any,sg,3,o,,'>
+1.2	lake	NN	<fs af='ladakA,n,m,pl,,d,,' name="lake">
+1.3	ne	PSP	<fs af='ne,psp,,,,,,'>
+	))		
+2	((	NP	<fs af='rAxA,n,f,sg,3,,,' head="rAxA">
+2.1	rAxA	NN	<fs af='rAxA,n,f,sg,3,,,' name="rAxA">
+2.2	kA	PSP	<fs af='kA,n,m,sg,,d,,'>
+	))		
+3	((	NP	<fs af='kelA,n,m,sg,,d,,' head="kelA">
+3.1	kelA	NN	<fs af='kelA,n,m,sg,,d,,' name="kelA">
+	))		
+4	((	VGF	<fs af='kAyA,n,f,sg,,d,,' head="kAyA">
+4.1	kAyA	VM	<fs af='kAyA,n,f,sg,,d,,' name="kAyA">
+	))		
+5	((	NP	<fs af='wA,n,m,sg,,d,,' head="wA">
+5.1	wA	NN	<fs af='wA,n,m,sg,,d,,' name="wA">
+	))		
+</Sentence>			

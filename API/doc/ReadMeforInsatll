@@ -1,0 +1,24 @@
+/*	Documentation for the C API  which supports the SSF FORMAT  along with CMF-format/multiple sentence tag, format :::: written by M.R.Chethan , 2007-08	*/
+
+Backup c_api_v2 :
+----------------
+
+	Firstly make a backup of the previous c_api_v2 ( if u have one which is used for only single sentence without sentence tag set) otherwise copy all the files of folder : C_API_files_for_multipleSentence_n_CML into the location where your are keeping your c modules.
+ 
+	Now,u are ready to access the C API for  multiple Sentence/CML (as usually by using the previous methods except for few changes if u have already used capi with single sentence.)
+
+
+
+The folder of <include_files>_for_C_API_for_ multipleSentence_CML having following files:-
+	structures.h-------all structures used
+	core_functions.h---Some very important functions
+	ssf_functions.h----functions involving for ssf structures ( without fs )
+	fs_functions.h-----functions to act on feature structures
+
+
+for any queries or suggestions please mail at :	rohit@research.iiit.ac.in
+
+
+All the best,
+LTRC-2009,
+IIIT Hyderabad.

@@ -1,0 +1,25 @@
+<Sentence id="1">			
+1	((	NP	<fs af='baccA,n,m,p,,0,0,'>|<fs af='baccA,n,m,p,,0,0,'>
+1.1	saBI	QF	<fs af='rAma,n,m,s,,0,,'>|<fs af='rAma,n,m,s,,0,,'>
+1.2	bacce	NN	<fs af='baccA,n,m,p,,0,0,'>
+	))		
+2	((	NP	<fs af='ఆంధ్రప్రదేశ్,n,f,s,,0,0,'>
+2.1	రెండు	NN	<fs af='kiwAba,n,f,s,,0,0,'>
+	))		
+3	((	VGF	<fs af='pada,v,m,p,any,,wA_hE,'>
+3.1	padawe	VM	<fs af='pada,v,m,p,any,,wA,'>
+3.2	.	SYM	
+	))		
+5	((	NP	<fs af='kiwAba,n,f,s,,0,0,'>
+5.1	kiwAba	NN	<fs af='ఆంధ్రప్రదేశ్,n,f,s,,0,0,'>
+	))		
+6	((	VGF	<fs af='pada,v,m,p,any,,pada,' head="pada"  name='pada'>
+6.1	రెండు	VM	<fs af='മാറിയ,v,m,p,any,,wA,'>
+6.2	.	SYM	
+	))
+7	((	VGF	<head='pada'>
+7.1	padawe	VM	<fs af='pada,v,m,p,any,,,' head='pada'  name='pada'>
+7.2	.	SYM	
+	))		
+			
+</Sentence>			

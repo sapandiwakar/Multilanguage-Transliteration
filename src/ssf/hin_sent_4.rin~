@@ -1,0 +1,13 @@
+<Sentence id="1">
+1	((	NP	<fs af='बच्चा,n,m,p,,0,0,'>|<fs af='बच्चा,n,m,p,,0,0,'>
+1.1	सभी	QF	<fs af='राम,n,m,s,,0,,'>|<fs af='राम,n,m,s,,0,,'>
+1.2	बच्चे	NN	<fs af='बच्चा,n,m,p,,0,0,'>
+	))		
+2	((	NP	<fs af='ఆంధ్రప్రదేశ్,n,f,s,,0,0,'>
+2.1	రాండు 	NN	<fs af='किताब,n,f,s,,0,0,'>
+	))		
+3	((	VGF	<fs af='पड,v,m,p,any,,wA_hE,'>
+3.1	पडते	VM	<fs af='पड,v,m,p,any,,wA,'>
+3.2	.	SYM	
+	))		
+</Sentence>		

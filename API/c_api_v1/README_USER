@@ -1,0 +1,45 @@
+Documentation
+--------------
+	Please read Datastructures.pdf and Functions.pdf . You can see "functions.h" for all the functions (some new functions added)
+
+USAGE
+-----
+	See sample.c for very basic program.
+	See checking_ssf.c for the usage of ssf functions.
+	See checking_fs.c for the usage of feature structure functions.
+
+	When writing your own program, include the library "c_api_<version_number.h>"
+
+Compilation
+-----------
+	For compiling you have to link the libraries of glib.
+	
+	Eg:
+		for compiling "checking_ssf.c" use the command
+			gcc  `pkg-config --cflags glib-2.0` `pkg-config --libs glib-2.0` checking_ssf.c
+		
+		for compiling "checking_fs.c" use the command
+			gcc  `pkg-config --cflags glib-2.0` `pkg-config --libs glib-2.0` checking_fs.c
+
+		for compiling sample.c
+			gcc  `pkg-config --cflags glib-2.0` `pkg-config --libs glib-2.0` sample.c
+		
+		for running sample.c
+			./a.out <input.file>
+
+Queries
+-------
+	Any queries or suggestions please mail me at
+		gvsreddy@students.iiit.ac.in
+
+Future Work
+-----------
+	Implementing recursive feature structure.
+
+
+All the best,
+G.V.Sivakumar Reddy,
+200501107,
+LTRC-2007,
+IIIT Hyderabad.
+
